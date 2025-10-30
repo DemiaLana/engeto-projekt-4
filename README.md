@@ -70,7 +70,7 @@ ORDER BY year;
 
 ## Dotaz 4 – Růst cen v procentech
 **Popis:** Počítá procentuální změnu průměrných cen mezi jednotlivými roky.  
-*(Výsledek je prázdný – pro dané roky nejsou dostupná úplná data.)*
+
 
 ```sql
 WITH avg_price AS (
@@ -89,7 +89,7 @@ SELECT
     ) AS price_growth_pct
 FROM avg_price;
 ```
- 
+ [04_price_growth.csv](./csv.project/04_price_growth.csv)
 
 ---
 
