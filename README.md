@@ -70,26 +70,26 @@ Poznámka: Data byla získána přes terminál z PostgreSQL databáze (`engeto_p
 4. Struktura projektu
 
 ```
+README.md
+screenshots/
+├─ 01_avg_salary_by_year.png
+├─ 02_salary_growth_by_year.png
+├─ 03_avg_price_by_year.png
+├─ 04_price_growth_by_year.png
+├─ 05_salary_vs_price_ratio.png
+├─ primary_table.png
+└─ secondary_table.png
+sql_scripts/
+├─ 01_avg_salary.sql
+├─ 02_salary_growth.sql
+├─ 03_avg_price.sql
+├─ 04_price_growth.sql
+├─ 05_salary_vs_price.sql
+├─ t_svitlana_demianiuk_project_sql_primary_final.sql
+└─ t_svitlana_demianiuk_project_sql_secondary_final.sql
 sv_results/
 ├─ primary_data.csv
-├─ macro_data.csv
-├─ screenshots/
-│   ├─ 01_avg_salary_by_year.png
-│   ├─ 02_salary_growth_by_year.png
-│   ├─ 03_avg_price_by_year.png
-│   ├─ 04_price_growth_by_year.png
-│   ├─ 05_salary_vs_price_ratio.png
-│   ├─ primary_table.png
-│   └─ secondary_table.png
-├─ sql_scripts/
-│   ├─ 01_avg_salary.sql
-│   ├─ 02_salary_growth.sql
-│   ├─ 03_avg_price.sql
-│   ├─ 04_price_growth.sql
-│   ├─ 05_salary_vs_price.sql
-│   ├─ t_svitlana_demianiuk_project_sql_primary_final.sql
-│   └─ t_svitlana_demianiuk_project_sql_secondary_final.sql
-└─ README.md
+└─ macro_data.csv
 ```
 
 Poznámky:
@@ -168,26 +168,26 @@ Note: Data were exported from a PostgreSQL database (`engeto_project`) via termi
 4. Project structure
 
 ```
+README.md
+screenshots/
+├─ 01_avg_salary_by_year.png
+├─ 02_salary_growth_by_year.png
+├─ 03_avg_price_by_year.png
+├─ 04_price_growth_by_year.png
+├─ 05_salary_vs_price_ratio.png
+├─ primary_table.png
+└─ secondary_table.png
+sql_scripts/
+├─ 01_avg_salary.sql
+├─ 02_salary_growth.sql
+├─ 03_avg_price.sql
+├─ 04_price_growth.sql
+├─ 05_salary_vs_price.sql
+├─ t_svitlana_demianiuk_project_sql_primary_final.sql
+└─ t_svitlana_demianiuk_project_sql_secondary_final.sql
 sv_results/
 ├─ primary_data.csv
-├─ macro_data.csv
-├─ screenshots/
-│   ├─ 01_avg_salary_by_year.png
-│   ├─ 02_salary_growth_by_year.png
-│   ├─ 03_avg_price_by_year.png
-│   ├─ 04_price_growth_by_year.png
-│   ├─ 05_salary_vs_price_ratio.png
-│   ├─ primary_table.png
-│   └─ secondary_table.png
-├─ sql_scripts/
-│   ├─ 01_avg_salary.sql
-│   ├─ 02_salary_growth.sql
-│   ├─ 03_avg_price.sql
-│   ├─ 04_price_growth.sql
-│   ├─ 05_salary_vs_price.sql
-│   ├─ t_svitlana_demianiuk_project_sql_primary_final.sql
-│   └─ t_svitlana_demianiuk_project_sql_secondary_final.sql
-└─ README.md
+└─ macro_data.csv
 ```
 
 Notes:
