@@ -1,12 +1,12 @@
 -- Dotaz 5: Porovnání růstu mezd a cen (pouze primární tabulka)
 WITH salary_growth AS (
-    SELECT year, ROUND(((AVG(avg_salary) - LAG(AVG(avg_salary)) OVER (ORDER BY year)) / NULLIF(LAG(AVG(avg_salary)) OVER (ORDER BY year),0) * 100)::numeric,2) AS salary_growth_pct
-    FROM t_svitlana_demianiuk_project_SQL_primary_final
+    SELECT year, ROUND(((AVG(value) FILTER (WHERE data_type='salary') - LAG(AVG(value) FILTER (WHERE data_type='salary')) OVER (ORDER BY year)) / NULLIF(LAG(AVG(value) FILTER (WHERE data_type='salary')) OVER (ORDER BY year),0) * 100)::numeric,2) AS salary_growth_pct
+    FROM t_svitlana_demianiuk_project_sql_primary_final
     GROUP BY year
 ),
 price_growth AS (
-    SELECT year, ROUND(((AVG(avg_price) - LAG(AVG(avg_price)) OVER (ORDER BY year)) / NULLIF(LAG(AVG(avg_price)) OVER (ORDER BY year),0) * 100)::numeric,2) AS price_growth_pct
-    FROM t_svitlana_demianiuk_project_SQL_primary_final
+    SELECT year, ROUND(((AVG(value) FILTER (WHERE data_type='price') - LAG(AVG(value) FILTER (WHERE data_type='price')) OVER (ORDER BY year)) / NULLIF(LAG(AVG(value) FILTER (WHERE data_type='price')) OVER (ORDER BY year),0) * 100)::numeric,2) AS price_growth_pct
+    FROM t_svitlana_demianiuk_project_sql_primary_final
     GROUP BY year
 )
 SELECT
