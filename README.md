@@ -44,26 +44,31 @@ Poznámka: Data byla získána přes terminál z PostgreSQL databáze (`engeto_p
 
 - Výpočet: průměrná mzda (`avg_salary`) z primary tabulky.
 - Závěr: Průměrná mzda rostla z **9778,67** (2000) na **10500,00** (2001) a zůstala stejná v roce 2002.
+- Manažerské shrnutí: Průměrná mzda vzrostla v roce 2001 a v roce 2002 stagnovala; doporučeno sledovat další vývoj mezd a nákladů práce.
 
 2) Růst mezd mezi roky
 
 - Výpočet: meziroční růst (`growth`) z průměrné mzdy.
 - Závěr: Růst mzdy mezi 2000–2001 byl **721,33**, mezi 2001–2002 **0,00**.
+- Manažerské shrnutí: Zvýšení bylo jednorázové v roce 2001; pro plánování rozpočtu se nepočítejme s dalším růstem bez dodatečných dat.
 
 3) Průměrná cena za rok
 
 - Výpočet: průměrná cena (`avg_price`) z primary tabulky.
 - Závěr: Průměrná cena rostla z **109124,50** (2000) na **115500,00** (2002).
+- Manažerské shrnutí: Ceny vykazují postupný nárůst; zvažte vliv na marže a kupní sílu zákazníků.
 
 4) Růst cen mezi roky
 
 - Výpočet: meziroční růst (`growth`) z průměrné ceny.
 - Závěr: Nejvyšší růst cen byl mezi 2000–2001: **3875,50**, mezi 2001–2002: **2500,00**.
+- Manažerské shrnutí: Inflace byla silnější v prvním kroku období; doporučeno monitorovat náklady vstupů.
 
 5) Poměr mzdy k cenám (`salary_vs_price`)
 
 - Výpočet: porovnání průměrné mzdy a průměrné ceny pro každý rok.
 - Závěr: Poměr mzdy k cenám se udržel stabilně kolem **0,09**, což indikuje vyrovnaný růst mezd a cen.
+- Manažerské shrnutí: Stabilní poměr znamená vyrovnaný vývoj kupní síly; pravidelné sledování zajistí včasnou reakci.
 
 ---
 
@@ -142,26 +147,31 @@ Note: Data were exported from a PostgreSQL database (`engeto_project`) via termi
 
 - Calculation: average wage (`avg_salary`) from the primary table.
 - Conclusion: Average wage increased from **9778,67** (2000) to **10500,00** (2001) and remained the same in 2002.
+- Manager's note: Average wage rose in 2001 and plateaued in 2002; monitor labor cost trends for budgeting.
 
 2) Wage growth between years
 
 - Calculation: year‑on‑year growth (`growth`) of the average wage.
 - Conclusion: Wage growth was **721,33** (2000→2001) and **0,00** (2001→2002).
+- Manager's note: The increase appears one‑off in 2001; do not assume continued growth without more data.
 
 3) Average price per year
 
 - Calculation: average price (`avg_price`) from the primary table.
 - Conclusion: Average price increased from **109124,50** (2000) to **115500,00** (2002).
+- Manager's note: Prices show a steady rise; assess impact on margins and customer purchasing power.
 
 4) Price growth between years
 
 - Calculation: year‑on‑year growth (`growth`) of the average price.
 - Conclusion: Highest price growth was **3875,50** (2000→2001) and **2500,00** (2001→2002).
+- Manager's note: Inflation peaked in 2000→2001; monitor input costs and pricing strategy.
 
 5) Wage vs. price ratio (`salary_vs_price`)
 
 - Calculation: comparison of average wage and average price per year.
 - Conclusion: The wage‑to‑price ratio remained stable around **0,09**, indicating balanced growth of wages and prices.
+- Manager's note: Stable ratio suggests maintained purchasing power; continue regular monitoring.
 
 ---
 
