@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# Editor configs
+.vscode/
+.idea/
+
+# Data / DB / logs
+*.sqlite3
+*.db
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Node
+node_modules/
+
+# Backup files
+*~ 
