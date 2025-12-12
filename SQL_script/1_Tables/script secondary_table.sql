@@ -1,7 +1,7 @@
 -- File: t_svitlana_project_sql_secondary_final.sql
 
 -- Create secondary table: contains macroeconomic indicators by country
-CREATE TABLE t_svitlana_project_sql_secondary_final (
+CREATE TABLE t_svitlana_demianiuk_project_sql_secondary_final (
     country TEXT,
     year BIGINT,
     gdp DOUBLE PRECISION,
@@ -13,7 +13,7 @@ CREATE TABLE t_svitlana_project_sql_secondary_final (
 );
 
 -- Insert selected columns from economies table
-INSERT INTO t_svitlana_project_sql_secondary_final (country, year, gdp, population, gini, taxes, fertility, mortality_under5)
+INSERT INTO t_svitlana_demianiuk_project_sql_secondary_final (country, year, gdp, population, gini, taxes, fertility, mortality_under5)
 SELECT 
     e.country,
     e.year,
